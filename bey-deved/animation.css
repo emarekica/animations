@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  font-family: "Nanum Brush Script", cursive;
+  color: rgba(255, 255, 255, 0.921);
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: "Rock Salt", cursive;
+  letter-spacing: 0.3em;
+  font-size: 2.5em;
+}
+
+#logo {
+  font-family: "Rock Salt", cursive;
+  font-size: 0.8em;
+  letter-spacing: 0.2em;
+  text-transform: capitalize;
+}
+
+.landing {
+  height: 100vh;
+  background: url("./img/bey2.webp");
+  background-size: cover;
+  padding: 0em 1em;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  padding-left: 10em;
+}
+
+.big-text {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  transform: translateY(40%);
+  color: rgb(223, 69, 69);
+  letter-spacing: 0.5em;
+}
+
+/* --- animated section --- */
+
+.intro {
+  background: rgb(0, 0, 0);
+
+  /* covers up the "main" */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  /* put text in center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.slider {
+  background: rgba(179, 4, 4, 0.237);
+
+  /* covers up the "main" */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  /* move it down to make it invisible */
+  transform: translateY(100%);
+}
+.intro-text {
+  font-family: "Nanum Brush Script", cursive;
+  color: rgba(255, 255, 255, 0.921);
+  font-size: 1.6em;
+  letter-spacing: 0.2em;
+  text-transform: capitalize;
+}
+
+.text-red {
+  color: rgb(223, 69, 69);
+  font-size: 1.6em;
+  text-transform: uppercase;
+}
+
+.hide {
+  background: black;
+  overflow: hidden;
+}
+
+.hide span {
+  display: inline-block;
+  transform: translateY(100%);
+}

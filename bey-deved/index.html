@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./animation.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Rock+Salt&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Slide Animation</title>
+  </head>
+  <body>
+    <main>
+      <section class="landing">
+        <nav>
+          <h1 id="logo">Bey</h1>
+          <ul class="nav-links">
+            <li>Don't hurt yourself</li>
+            <li>Formation</li>
+            <li>Sand castles</li>
+          </ul>
+        </nav>
+        <h2 class="big-text">LEMONADE</h2>
+      </section>
+    </main>
+
+    <!-- animated -->
+    <div class="intro">
+      <div class="intro-text">
+        <h1 class="hide">
+          <span class="text">I did not come</span>
+        </h1>
+
+        <!-- they will pop-up out of h1  -->
+        <h1 class="hide">
+          <span class="text">to play with you, hoes</span>
+        </h1>
+        <h1 class="hide">
+          <span class="text-red">I came to slay, BITCH</span>
+        </h1>
+      </div>
+    </div>
+
+    <div class="slider"></div>
+
+    <!-- animation -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"
+      integrity="sha512-GQ5/eIhs41UXpG6fGo4xQBpwSEj9RrBvMuKyE2h/2vw3a9x85T1Bt0JglOUVJJLeyIUl/S/kCdDXlE/n7zCjIg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./animation.js"></script>
+  </body>
+</html>
