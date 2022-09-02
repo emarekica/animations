@@ -1,5 +1,13 @@
-# ANIMATION
+# ANIMATION - notes
 
+<br>
+
+![lemonade-animation_AdobeExpress](https://user-images.githubusercontent.com/77061620/188182984-9d4bff23-1190-4532-8dea-82983967bb51.gif)
+
+
+<br><br>
+
+<hr />
 <br>
 
 [YT tutorial](https://www.youtube.com/watch?v=sN93DRYkCO8&list=PLmGRn_VnTuAxIHKjfgoOEOIk72PeZdbaB&index=129)
